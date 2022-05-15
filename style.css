@@ -27,10 +27,13 @@ p {
 .banner .content h2 {
     font-size: 5em;
     color: rgb(255, 255, 255);
+
 }
 .banner .content p {
     font-size: 1.8em;
-    color: #fff;
+    color: rgb(22, 54, 108);
+    /* font-weight: bold; */
+    text-shadow: #555 0.1em 0.1em 0.2em
 }
 .btn {
     font-size: 1em;
@@ -102,14 +105,14 @@ header .navigation li {
 }
 header .navigation li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(22, 54, 108);
     font-weight: 300;
 }
 header.sticky .navigation li a {
     color: #111;
 }
 header .navigation li a:hover {
-    color: #193a94d7;
+    color: #943c19d7;
 }
 section {
     padding: 100px;
