@@ -99,8 +99,8 @@ header .navigation {
     position: relative;
     display: flex;
    
-    right: -90em;
-    top: -3em;
+    /* right: -90em;
+    top: -3em; */
 
 }
 header .navigation li {
