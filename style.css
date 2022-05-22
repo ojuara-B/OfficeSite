@@ -267,7 +267,7 @@ section {
 } */
 .toHire {
     background: url(images/bg2.jpg);
-    background-size: 1920px 1000px;
+    background-size: 100% 1000px;
     background-repeat: no-repeat;
     padding: 180px;
 }
