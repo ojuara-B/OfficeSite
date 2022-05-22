@@ -105,14 +105,15 @@ header .navigation li {
 }
 header .navigation li a {
     text-decoration: none;
-    color: rgb(22, 54, 108);
-    font-weight: 300;
+    color: rgb(2, 17, 85);
+    font-weight: 900;
+    text-shadow: #666 0.05em 0.05em 0.1em
 }
 header.sticky .navigation li a {
     color: #111;
 }
 header .navigation li a:hover {
-    color: #943c19d7;
+    color: #0430aad7;
 }
 section {
     padding: 100px;
@@ -187,6 +188,23 @@ section {
     border: 15px solid #fff;
     box-shadow: 0 5px 35px rgba(0,0,0,0.5);
 }
+
+
+.menu .content .box .imgBx1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
 .menu .content .box .imgBx {
     position: relative;
     width: 100%;
@@ -194,10 +212,10 @@ section {
 }
 .menu .content .box .imgBx img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -13%;
+    left: -5%;
+    width: 108%;
+    height: 125%;
     object-fit: cover;
 }
 .menu .content .box .text {
