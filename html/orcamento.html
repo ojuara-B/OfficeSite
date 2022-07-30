@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="/css/styleorcamento.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICE CONT</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+<!--oi a-->
+    
+</head>
+
+<body>
+         <header >
+        
+        
+          </header>
+  
+    
+        
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2 class="titleText" style="color: white;"><span style="color: white;text-align:center">S</span>olicite seu Orçamento</h2>
+                <p style="color:white;">Por favor, utilize o formulário abaixo para entrar em contato conosco e Preencha todas as informações</p>
+            </div>
+            <div class="contactForm">
+
+                <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+                    <input type="hidden" name="recipient" value="contato@officecontpe.com.br"> <!-- Pode ser qualquer endereço de email -->
+                    <input type="hidden" name="redirect" value= "https://pablolucas2005.github.io/orcamentoOffice/">  <!--Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                    <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+                    <input type="hidden" name="email" value="contato@officecontpe.com.br">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+                    
+
+                <h3>Solicite seu Orçamento</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Nome" name ="nome">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="e-mail" name = "replyto">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="telefone" name = "tel">
+                </div>
+                <div class="inputBox">
+                  <div class="inputBox">
+                    <label  for="orcamento">Selecione o serviço</label>
+                    <select class="form-control" id="orcamento">
+                      <option></option>
+                      <option>Abertura de Empresa</option>
+                      <option>Encerramento de Empresa</option>
+                      <option>Acompanhamento Contábil</option>
+                      <option>Balanço Patrimonial</option>
+                      <option>Departamento Pessoal</option>
+                      <option>Departamento Fiscal</option>
+                      <option>Outros</option>
+                    </select>
+                   </div>
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Assunto" name = "Comentarios"></textarea >
+                </div>
+                <div class="inputBox">
+                    <input type="submit"  value="Enviar" onclick = "validarFormulario()">
+                    <script>
+                        function validarFormulario(){
+                            alert("obrigado pelo seu contato!");
+                        }
+                    </script>
+                                                            
+                </div>
+            </div>
+
+                
+                </form>
+                
+             
+        </section>
+        <span class="linha" ></span>
+       
+
+        <div class="copyrightText">
+            <p>Copyright 2022 <a href="https://github.com/ojuara-B">Ojuara-b</a>, 
+                <a href="https://github.com/PabloLucas2005">PabloLucas2005</a>
+                 and <a href="#">Squad Dionisio</a>. All Right Reserved</p>
+        </div>
+
+       
+</body>
+
+
+</html>
