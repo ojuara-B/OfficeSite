@@ -267,9 +267,9 @@ section {
 } */
 .toHire {
     background: url(images/bg2.jpg);
-    background-size: 100% 1000px;
+    background-size: 100% 62.5rem;
     background-repeat: no-repeat;
-    padding: 180px;
+    padding: 11.25rem;
 }
 .white .titleText,
 .white p {
@@ -280,7 +280,7 @@ section {
     justify-content: center;
     flex-wrap:nowrap;
     flex-direction:row-reverse;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 .toHire .content .box {
     /* width: 90px;
@@ -291,18 +291,18 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 250px;
+    height: 15.625rem;
     border-inline:initial;
     border-color:#193a94d7;
     border-radius: 2%;
-    border-width: 8px;
+    border-width: 0.5rem;
 
     }
 .toHire .content .box .imgBx {
     position: relative;
-    width: 100px;
-    height: 60px;
-    margin-bottom: 1px;
+    width: 6.25rem;
+    height: 3.75rem;
+    margin-bottom: 0.063rem;
     border: none;
     overflow: hidden;
 }
@@ -323,14 +323,14 @@ section {
     
 }
 .toHire .content .box .text h3 {
-    margin-top: 15px;
+    margin-top: 0.938rem;
     color: #111;
     font-size: 1em;
     color: #ffffffd7;
     background-color: #0b3989;
-    width: 120px;
-    margin-left: 60px;
-    font-weight: 30;
+    width: 7.5rem;
+    margin-left: 3.75rem;
+    font-weight: 1.875rem;
 }
 
 .testimonials {
@@ -479,8 +479,7 @@ section {
     justify-content: center;
     display: flex;
    
-    
-    
+       
     }
 
 
@@ -490,11 +489,6 @@ section {
     padding: 1%;
     
 }
-
-
-
-
-
 
 
 @media (max-width: 991px)
@@ -591,8 +585,7 @@ section {
         font-size: 1.em;
         line-height: 1.5em;
         margin-bottom: 15px;
-        
-       
+              
 
     }
 
