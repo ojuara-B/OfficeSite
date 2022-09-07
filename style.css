@@ -490,6 +490,31 @@ section {
     
 }
 
+.Need {
+    /* background: url(/images/bg3.jpg); */
+    background: linear-gradient(35deg, #00326f 10%, #0077ef 35%, #00326f 100%);
+  
+}
+
+.titleNeed {
+       
+    color: #f1f1f1;
+    text-align: center;
+
+}
+
+.textNeed{
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.bottoneed{
+
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
 
 @media (max-width: 991px)
 {
