@@ -516,6 +516,54 @@ section {
     flex-wrap: wrap;
 }
 
+.buttonDemonstracao{
+    display:flex;
+    justify-content: center;
+
+}
+
+.imgcelular{
+    display: flex;
+    justify-content: center;
+}
+
+
+.textApp{
+    color:rgb(11, 63, 112);
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+
+}
+
+.imgandDownload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.AppImg{
+    display: flex;
+ 
+    
+
+}
+
+.download{
+    margin-top: 3.8rem;
+}
+
+.imgdownload{
+    display: flex;
+    justify-content: center;
+    
+}
+    
+
+
+
 @media (max-width: 991px)
 {
     header,
@@ -619,6 +667,13 @@ section {
         padding: 35px 40px;
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+
+    .baixeapp{
+
+        display: flex;
+        justify-content: center;
+        
     }
 }
 @media (max-width: 480px) {
