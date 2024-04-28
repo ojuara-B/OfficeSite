@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", Sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    /* background: linear-gradient(35deg, #00326f 10%, #0077ef 35%, #00326f 100%); */
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+/* Inicio Header */
+
+.TextoPrincipal{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #001f72;
+}
+
+/* Final Header */
+
+/* Inicio Blocos da Área dos Clientes */
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: #183585;
+}
+    
+
+section.ajuda{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width:1000px;
+    margin-left: 10%;
+}
+
+.bloco{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.5);
+    /* background: linear-gradient(35deg, #00326f 1%, #0077ef 98%); */
+}
+
+div.items{
+    text-align: center;
+}
+
+svg{
+    margin-bottom: 20px;
+    color: #183585;
+}
+
+/* Final Blocos da Área dos Clientes */
+
+/* Inicio Section Downloads */
+
+section.Downloads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#inicioDownloads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.linha {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 1px;
+    background-color: #ddd;
+}
+
+div#inicioDownloads h1.TextoSecundario{
+    text-align: center;
+    color: #001f72;
+    margin-bottom: 13%;
+}
+
+/* Final Section Downloads */
+
+/* Inicio Section itens Downloads */
+
+.itensDownloadsBloco{
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+div.itensDownloads{
+    display: flex;
+    gap: 10px;
+}
+
+h1.TextoSecundarioItem{
+    margin-top: 2.5%;
+    color: #6676a1;
+    font-size: 20px;
+    font-style: italic;
+}
+
+div.itensDownloads svg{
+    color: #6676a1;
+}
+
+ol li{
+    list-style: none;
+}
+
+@media (min-width: 1300px) {
+    section.ajuda{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        max-width:100%;
+        margin:0
+    }
+  }

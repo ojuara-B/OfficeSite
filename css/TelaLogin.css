@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", Sans-serif;
+}
+
+html{
+   min-height: 100%;
+   background-image: url(../images/BgLogin.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   
+}
+
+.col-md-12{
+    margin-top: 12%;
+}
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/Icon2.png">
+    <link rel="stylesheet" href="../css/TelaLogin.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSora%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3' media='all' />
+</head>
+
+<div class="col-md-12">
+    <br><br><br><br><br><br><br><br>
+    <div class="modal-dialog" style="margin-bottom:0">
+        <div class="modal-content">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Login</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control email" placeholder="E-mail" name="email" type="email" autofocus="">
+                                </div>
+                                <div class="form-group pass">
+                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                </div>
+                                 <!-- <div class="checkbox">
+                                    <label>
+                                        <input name="remember" type="checkbox" value="Remember Me">Remember Me
+                                    </label>
+                                </div>  -->
+                                <!-- Change this to a button or input when using this as a form -->
+                                <a href="AreaDoCliente.html" class="btn btn-sm btn-success">Entrar</a>
+                            </fieldset>
+                        </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</body>
+<script>
+    let input = document.querySelector('.email')
+    let entrar = document.querySelector('.btn-success')
+    const arr = ['deivid@officecont.cnt.br','pablo.lucas@officecontpe.com.br','severino.junior@officecont.cnt.br']
+
+    entrar.addEventListener('click',(e)=>{
+        
+        e.preventDefault()
+        let condicao = false
+        arr.forEach((item)=>{
+        if(item === input.value.toLowerCase()){
+            
+                window.location.href = './AreaDoCliente.html'
+                condicao = true
+            }})
+
+        if(condicao == false){
+            alert('Email não cadastrado')
+    }
+        
+    })
+</script>
+</html>
